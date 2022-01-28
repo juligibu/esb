@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- ICON -->
+	<link rel="icon" type="image/png" href="images/sol.png" witdh:"content" height:"content">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+	
+	<title> ESBA </title>
+
+</head>
+
+<body>
+
+	<!-- ONLOAD -->
+
+	<div id="loader-principal">
+		<div class="img">
+		  <img src="images/logo.png">
+		</div>
+		<div id="loader-container">
+		</div>
+	</div>
+
+	<!-- NAVBAR -->
+
+	<header class="header">
+		<nav class="nav">
+			
+			<a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+				<ul class="menu-items">
+
+					<li><a href="index.html">Inicio</a></li>
+					<li class="dropdown">
+						<a href="productos.html">Productos</a>
+
+						<ul class="dropdown-content">
+							<li><a href="sistemafotovoltaico.html">Sistema Fotovoltaico</a></li>
+							<li><a href="climatizaciondepiscinas.html">Climatización de Piscinas</a></li>
+							<li><a href="bombassolares.html">Bombas Solares</a></li>
+							<li><a href="airecalientesolar.html">Aire Caliente Solar</a></li>
+							<li><a href="aguasanitariacaliente.html">Agua Sanitaria Caliente</a></li>
+							<li><a href="puntosolar.html">Punto Solar</a></li>
+						</ul>
+
+					</li>
+					<li><a href="proyectos.html">Proyectos</a></li>
+					<li><a href="empresa.html">Empresa</a></li>
+					<li><a href="preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+					<li><a href="index.html#contacto">Contacto</a></li>
+
+				</ul>
+				<span class="btn-menu"><i class="fas fa-bars"></i></span>
+		</nav>
+		
+	</header>
+
+	<!-- ASIDE + SISTEMA FOTOVOLTAICO -->
+
+	<div class="aside-fotovoltaico">
+
+	<!-- ASIDE -->
+	
+	<div class="aside">
+				<div class="container-productos-aside">
+					<h4 class="producto-aside"><a href="sistemafotovoltaico.html">Sistemas Fotovoltaicos</a></h4>
+					<h4 class="producto-aside"><a href="climatizaciondepiscinas.html">Climatización de Piscinas</a></h4>
+					<h4 class="producto-aside"><a href="bombassolares.html">Bombas Solares</a></h4>
+					<h4 class="producto-aside"><a href="airecalientesolar.html">Aire Caliente Solar</a></h4>
+					<h4 class="producto-aside"><a href="aguasanitariacaliente.html">Agua Sanitaria Caliente</a></h4>
+					<h4 class="producto-aside"><a href="puntosolar.html">Punto Solar</a></h4>
+				</div>
+					<div class="slide-contenedor">
+						<div class="miSlider fade">
+							<img src="images/imagen.jpg">
+						</div>
+						<div class="miSlider fade">
+							<img src="images/imagen2.jpg">
+						</div>
+						<div class="miSlider fade">
+							<img src="images/imagen3.jpg">
+						</div>
+						<div class="barras">
+							<span class="barra active" onclick="posicionSlide(1)"></span>
+							<span class="barra" onclick="posicionSlide(2)"></span>
+							<span class="barra" onclick="posicionSlide(3)"></span>
+						</div>		
+				</div>
+	</div>
+	
+	<!-- SISTEMA FOTOVOLTAICO -->
+	
+	<section>
+		<h1 class="titulo"><a href="#"> SISTEMA FOTOVOLTAICO </a></h1>
+
+		<div class="sistema-fotovoltaico">
+			<div class="presentacion">
+				<img src="images/imagen2.jpg" alt=""> 
+			</div>
+			<div class="sistema-total">
+				<a href="#" id="abrir"><div class="sistema">
+					<img src="images/sistema1.jpg" alt="">
+					<h4>FOTOVOLTAICO ON GRID
+						KIT 4.15</h4>
+				</div></a>
+				<a href="#" id="abrird"><div class="sistema">
+					<img src="images/sistema2.jpg" alt="">
+					<h4>ILUMINACIÓN DE ESPACIOS PÚBLICOS
+						BR- AIO20W</h4>
+				</div></a>
+			</div>
+		</div>
+
+		<div id="miModal" class="modal">
+			<div class="flex" id="flex">
+				<div class="contenido-modal">
+					<div class="modal-header flex">
+						<span class="close" id="close">&times;</span>
+					</div>
+					<div class="modal-body">
+					<img src="images/sistema1.jpg" alt="">
+						<p>Brindamos la oportunidad de independencia del sistema energético, ya que los sistemas fotovoltaicos funcionan a partir de luz solar, siendo ésta la fuente de energía para tu proyecto. Se calcula que el ahorro mensual es de 70 % de acuerdo al consumo promedio de 250 kWh por mes. El equipo contiene 4 paneles solares, que puede ampliarse a 6 y un sistema de monitoreo para verificar el porcentaje de ahorro eléctrico. 
+							<br><br> Inversor Fronius 1,5 <br>- 4 paneles solares 260Wp. Ampliable a 6 paneles <br>- Producción de electricidad de 2100 kWh/año (175 kWh/mes) <br>- 70% de ahorro, consumo promedio de 250 kWh/mes</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="miModald" class="modal">
+			<div class="flex" id="flexd">
+				<div class="contenido-modal">
+					<div class="modal-header flex">
+						<span class="close" id="closed">&times;</span>
+					</div>
+					<div class="modal-body">
+					<img src="images/sistema2.jpg" alt="">
+						<p>El salto hacia lo sustentable en materia de espacios públicos, reviste una toma de conciencia respecto de los beneficios tanto económicos como en imagen que provee. Las luminarias led solares funcionan en base a energía limpia y con muy bajo mantenimiento, reduciendo sensiblemente el consumo con una extensa vida útil. <br><br> Pero lo más importante, es que proporcia la toma de conciencia ambiental en cadena, agregando posicionamiento y valor a tu institución.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	</div>
+
+	<!-- FOOTER -->
+
+	<footer>
+		<div class="footer">
+			<div class="row">
+				<div class="footer-col">
+					<h4>ENERGÍA SOLAR</h4>
+					<ul>
+						<li><p>Producida por la luz o el calor del sol para la generación de electricidad o la producción de calor. Inagotable y renovable</p></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+				 <h4><a href="empresa.html" class="link">LA EMPRESA</a></h4>
+				 <ul>
+					 <li><a href="#">MISIÓN</a></li>
+					 <li><a href="#">VISIÓN</a></li>
+					 <li><a href="#">PREGUNTAS FRECUENTES</a></li>
+				 </ul>
+			 </div>
+				<div class="footer-col">
+					<h4>¿QUERÉS ENCONTRARNOS?</h4>
+					<ul>
+						<li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13048.781789073935!2d-58.740831!3d-35.1517461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3234258d8c6f259!2sEnerg%C3%ADa%20Solar%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1636565399612!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>SEGUINOS</h4>
+					<div class="social-links">
+						<a href="https://www.facebook.com/energiasolarbuenosaires/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs" target="_blank"><i class="fab fa-whatsapp"></i></a>
+					 <a href="https://www.instagram.com/esba_bs.as/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JAVASCRIPT -->
+
+	<script src="js/code.js"></script>
+
+</body>
+</html>
