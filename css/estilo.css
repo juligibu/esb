@@ -969,6 +969,51 @@ iframe {
     color: #000;
 }
 
+.sistema-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.sistema-grid {
+    text-align: center;
+    margin: 20px;
+}
+
+.offgrid {
+    border: 1px solid #1fc5f8;
+    width: 95%;
+    height: 30vh;
+    border-radius: 20px;
+    margin-left: 10%;
+    box-shadow: -1px -1px 8px #1fc5f84f, 1px 1px 8px #1fc5f84f;
+}
+
+.offgrid h1 {
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.ongrid {
+    border: 1px solid #1fc5f8;
+    width: 95%;
+    height: 30vh;
+    border-radius: 20px;
+    margin-left: 10%;
+    box-shadow: -1px -1px 8px #1fc5f84f, 1px 1px 8px #1fc5f84f;
+}
+
+.ongrid h1 {
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
 @media(max-width: 1260px){
 
     .presentacion img {
@@ -1528,4 +1573,38 @@ iframe {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+}
+
+/* CLIMATIZACIÓN DE PISCINAS */
+
+.climatizacion {
+    text-align: left;
+    margin: 5%;
+    margin-top: 0px;
+}
+
+.cuadro-clima {
+    border: 2.5px solid #1fc5f8;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -1px -1px 8px #1fc5f84f, 1px 1px 8px #1fc5f84f;
+}
+
+.climatizacion p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.sistema-clima {
+    width: 250px;
+    display: inline-block;
+    background-color: #1fc5f865;
+    text-align: center;
+}
+
+.sistema-clima img {
+    width: 95%;
+    margin-top: 5px;
+    padding-bottom: 2px;
 }
