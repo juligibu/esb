@@ -92,7 +92,7 @@
 }
 
 .btn-menu {
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 10px;
     font-size: 25px;
     color: #000;
@@ -169,6 +169,10 @@
 /* NAVBAR RESPONSIVE */
 
 @media screen and (max-width: 960px) {
+
+    body {
+        max-width: 100%;
+    }
 
     .nav {
         background-color: rgba(76, 187, 221, 1);
@@ -1220,7 +1224,7 @@ iframe {
 .asidee p {
     margin: auto 17%;
     text-align: right;
-    line-height: 1;
+    line-height: 1.5;
     color: #000;
     margin-bottom: 3.5%;
     font-size: 17px;
@@ -1228,6 +1232,52 @@ iframe {
 
 .asidee p:first-child {
     margin-top: 5%;
+}
+
+.mision-vision p{
+    color: #000;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.mision-vision-div {
+    line-height: 1;
+    text-align: left;
+}
+
+.cuadro-mision-vision {
+    border: 2.5px solid #1fc5f8;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -1px -1px 8px #1fc5f84f, 1px 1px 8px #1fc5f84f;
+    margin-top: 25px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cuadro-confiamos {
+    border: 2.5px solid #39d1ff;
+    background-color: #39d1ff;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    line-height: 1.5;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.cuadro-confiamos img {
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.cuadro-confiamos p {
+    text-align: left;
+    padding: 10px;
 }
 
 /* PREGUNTAS FRECUENTES */
@@ -1361,7 +1411,7 @@ iframe {
     text-align: left;
 }
 
-#respuesta, #respuesta2 {
+#respuesta, #respuesta2, #respuesta3, #respuesta4, #respuesta5 {
     display: none;
 }
 
@@ -1608,3 +1658,4 @@ iframe {
     margin-top: 5px;
     padding-bottom: 2px;
 }
+
